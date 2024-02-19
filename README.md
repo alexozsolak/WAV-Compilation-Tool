@@ -1,6 +1,6 @@
-# WAV compilation
+# WAV Compilation Tool
 
-Program which takes as input WAV files and outputs a compilation with transitions and background sounds.
+Program which takes as input WAV files and outputs a compilation with transitions and optional background sounds.
 
 # Building
 
