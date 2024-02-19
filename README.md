@@ -10,7 +10,7 @@ Type `make` in the downloaded folder.
 
 `./compilation file1.wav file2.wav ... fileN.wav -b [backgroundFile] -v [backgroundVolume] -o [outputName]`
 
-- -b is used to select the background sounds/music used in the final compilation. 
+- -b is an optional argument used to select the background sounds/music used in the final compilation. 
 
 - -v is an optional argument used to control the volume of the background sounds. Set this to .5 for 50%, 2 for 200%, etc. The default value is 1.
 
