@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	//checks for correct usage
 	if (argc < 3)
 	{
-		printf("correct usage: ./compilation song1.wav ... songN.wav -b [bgFile] -v [bgVolume] -o [outputName]\n");
+		printf("correct usage: ./compilation file1.wav file2.wav ... fileN.wav -b [backgroundFile] -v [backgroundVolume] -o [outputName]\n");
 		return 1;
 	}
 	//creates an array to store song filepaths and declares initial values for variables 
