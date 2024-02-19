@@ -13,6 +13,7 @@ typedef uint16_t  WORD;
 typedef int16_t   SAMPLE;
 typedef uint32_t  DWORD;
 
+//WAV header structure (taken from CS50's fourth problem set)
 typedef struct
 {
     BYTE   chunkID[4];
