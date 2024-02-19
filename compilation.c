@@ -93,7 +93,7 @@ int combine(int N, char *songs[], char *bgm, float vol, char *name)
 		//checks to see if the file is a valid WAV file. if not, closes the current files
 		if (check_format(header) == 1)
 		{
-			printf("one or more provided songs are not wav files\n");
+			printf("one or more provided files are not wav files\n");
 			fclose(song);
 			if (bgm != NULL)
 			{
